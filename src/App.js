@@ -1,11 +1,22 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './styles.css';
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="app">
+      <h2>Pomodoro!</h2>
+
+      <div className="timer">
+        <span>00</span>
+        <span>:</span>
+        <span>00</span>
+      </div>
+
+      <div className="buttons">
+        <button>Start</button>
+        <button>Stop</button>
+        <button>Reset</button>
+      </div>
     </div>
   );
 }
